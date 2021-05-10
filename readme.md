@@ -1,108 +1,41 @@
-# # ChatApp
+![chat-bubbles-with-ellipsis](https://user-images.githubusercontent.com/54114888/117592353-d5121280-b155-11eb-9abb-6de20f7e9a0c.png)
+# Chatterbox
 
-## [Live Demo](https://mehul-chat-app.herokuapp.com/) 
+## 📑 Description:
+The "Chatterbox" is a real-time group chat application. With this you can join a specified room to chat, send the geographical location to other users in the room if permission is granted, automatically scroll down upon receiving a new message and it is also a responsive web design.
 
+## 🌎 Deployed Website:
+To be deployed on Heroku.
 
-## Features
+## 📽 Sample Demo:
+https://user-images.githubusercontent.com/54114888/117592706-3a1a3800-b157-11eb-9556-111302bca970.mp4
 
--   Join a specified room to chat
-    
--   Send the geographical location to other users in the room if permission is granted
-    
--   Automatically scroll down upon receiving a new message
-    
--   Responsive web design (RWD)
+## 🏗 Built with:
+- Node.JS.
+- JQuery.
+- Socket.io.
+- Express.
+- MongoDB Atlas.
+- Node.JS Drivers for MongoDB.
 
+## 👦 Developed By:
+- Akash Ramjyothi.
+- Email ID: akash.ramjyothi@gmail.com
+- PH: +91 8939928002.
+- LinkedIn: https://www.linkedin.com/in/akash-ramjyothi/
 
-## [](https://github.com/rubychi/udemy-chatapp#getting-started)Getting Started
+## 🌐 References Used:
+- https://www.youtube.com/watch?v=8Y6mWhcdSUM
+- https://www.youtube.com/watch?v=hrRue5Rt6Is
+- https://dev.to/rexeze/how-to-build-a-real-time-chat-app-with-nodejs-socketio-and-mongodb-2kho
+- https://hasitha-chandula.medium.com/real-time-chat-app-with-react-nodejs-mongodb-and-socket-io-part-1-serverside-a27ab65ab81b
+- https://dzone.com/articles/creating-a-chat-application-in-node-js-with-expres
+- https://www.youtube.com/watch?v=wcVxX7lu2d4
 
-Follow the instructions below to set up the environment and run this project on your local machine
+## 🧪 Steps to locally build the website:
 
-### [](https://github.com/rubychi/udemy-chatapp#prerequisites)Prerequisites
+### `npm install`
+To Install dependencies by NPM.
 
--   Node.js
-
-### [](https://github.com/rubychi/udemy-chatapp#installing)Installing
-
-1.  Download ZIP or clone this repo
-
-```
-> git clone https://github.com/Mehulcoder/Chat-Application.git
-```
-
-2.  Install dependencies via NPM
-
-```
-> npm install
-```
-
-5.  Back to the root directory and type the below command to start the server and the service
-
-```
-> npm run dev
-```
-
-6.  See it up and running on  [http://localhost:8000](http://localhost:8000/)
-
-## [](https://github.com/rubychi/udemy-chatapp#deployment)Deployment
-
-1.  Deploy to Heroku
-
-```
-> heroku create
-> git push heroku master
-```
-
-2.  Open the app in the browser
-
-```
-> heroku open
-```
-
-
-
-## [](https://github.com/rubychi/udemy-chatapp#built-with)Built With
-
-### [](https://github.com/rubychi/udemy-chatapp#frontend)Frontend
-
--   jquery
--   mustache
-
-### [](https://github.com/rubychi/udemy-chatapp#backend)Backend
-
--   express
--  NodeJS
--   compression
--   helmet
-
-### [](https://github.com/rubychi/udemy-chatapp#utils)Utils
-
--   socket.io
--   moment
-
-
-##  Notes
-
--   Send an event to everybody in the room 'The Office Fans'
-
-```
-io.emit -> io.to('The Office Fans').emit
-
-```
-
--   Send an event to everybody in the room 'The Office Fans' except for the current user
-
-```
-socket.broadcast.emit -> socket.broadcast.to('The Office Fans').emit
-
-```
-
--   Send an event to a specific user
-
-```
-socket.emit
-```
-
-## Authors
-
-- [Mehul Chaturvedi](https://github.com/Mehulcoder)
+### `npm run dev`
+Setting up and runs on port 8000.
