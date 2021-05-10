@@ -39,3 +39,9 @@ To Install dependencies by NPM.
 
 ### `npm run dev`
 Setting up and runs on port 8000.
+
+## Implemented Architecture:
+![design](https://user-images.githubusercontent.com/54114888/117592867-d80e0280-b157-11eb-8f69-1dcee0560910.png)
+
+
+
