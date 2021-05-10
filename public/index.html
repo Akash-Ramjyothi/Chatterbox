@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Jquery -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <!-- Socket.io -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Moustache.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.1.0/mustache.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.3/qs.min.js"></script>
+    <!-- CSS files -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Images -->
+    <link rel="icon" href="./img/char.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatterbox</title>
+</head>
+
+<body>
+
+    <div style="color:grey; background-color: white; width: 600px; height: 56px; position: absolute; top: 100px; left: 680px; border-radius: 10px; font-weight: bold; font-size: 46px; text-align: center;">
+        Chatterbox
+    </div>
+    
+    <div class="centered-form">
+        <div className="credits" style="color:blue; background-color: grey; width: 100px; height: 40px; position: absolute; top: 700px; border-radius: 10px;">
+            <a href="https://github.com/Akash-Ramjyothi/Chatterbox">    
+              Source Code
+            </a>
+        </div>
+        <div class="centered-form__box">
+            <h1>
+                JOIN
+            </h1>
+            <form action="./chat.html">
+                <label> Display Name</label>
+                <input type="text" name="username" placeholder="Display name" required>
+                <label for="room">Room</label>
+                <input type="text" name="room" placeholder="room" required>
+                <button>Join</button>
+            </form>
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
