@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
-
 /* General Styles */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 html {
@@ -19,7 +18,7 @@ input {
 body {
   line-height: 1.4;
   color: #333333;
-  font-family: "Ubuntu", sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   background-image: url(https://i.ibb.co/JdbWM6K/background.jpg);
 }
 
@@ -71,7 +70,7 @@ button:disabled {
   position: relative;
   padding-bottom: 30px;
   margin-bottom: 40px;
-  width: 200px;
+  width: 230px;
   height: 50px;
   background: linear-gradient(
     to left top,
@@ -87,8 +86,8 @@ button:disabled {
 
 .heading > h1 {
   text-align: center;
-  color: #658ec6;
-  font-weight: 300;
+  color: #e02828;
+  font-weight: 700;
   opacity: 0.8;
 }
 
@@ -172,6 +171,7 @@ button:disabled {
   border-radius: 30px;
   color: rgb(25, 101, 199);
   z-index: 1;
+  font-size: small;
   font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
@@ -243,14 +243,21 @@ button:disabled {
 
 .chat {
   display: flex;
+  padding: 10px;
+  max-height: 100vh;
 }
 
 .chat__sidebar {
-  height: 100vh;
+  height: 715px;
   color: white;
-  background: #333744;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  margin: 10px 0 20px 10px;
   width: 225px;
   overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 /* Chat styles */
@@ -260,19 +267,38 @@ button:disabled {
   display: flex;
   flex-direction: column;
   max-height: 100vh;
-  margin: 15px;
+  margin: 10px 15px 10px 10px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
 }
 
 .chat__messages {
+  max-height: 640px;
   flex-grow: 1;
-  padding: 24px 24px 0 24px;
+  padding: 12px 24px 12px 24px;
   overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.chat__messages::-webkit-scrollbar {
+  display: none;
+}
+
+.chat__sidebar::-webkit-scrollbar {
+  display: none;
 }
 
 /* Message Styles */
 
 .message {
   margin-bottom: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  backdrop-filter: blur(3px);
+  padding: 3px 0 3px 15px;
 }
 
 .message__name {
@@ -306,35 +332,51 @@ button:disabled {
 }
 
 .compose input {
-  border: 1px solid #eeeeee;
+  border: none;
   width: 100%;
   padding: 12px;
   margin: 0 16px 0 0;
   flex-grow: 1;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
 }
 
 .compose button {
-  font-size: 14px;
+  color: rgb(70, 57, 57);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 /* Chat Sidebar Styles */
 
 .room-title {
-  font-weight: 400;
-  font-size: 22px;
-  background: #2c2f3a;
-  padding: 24px;
+  padding-top: 40px;
+  text-align: center;
+  color: rgb(216, 76, 76);
+}
+
+.list-container {
+  margin-bottom: 4px;
+  padding: 24px 24px 0 24px;
+  text-align: center;
 }
 
 .list-title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
-  margin-bottom: 4px;
-  padding: 12px 24px 0 24px;
+  color: rgb(216, 76, 76);
+  margin-bottom: 10px;
 }
 
 .users {
   list-style-type: none;
-  font-weight: 300;
+  font-weight: 500;
   padding: 12px 24px 0 24px;
+  font-size: medium;
+  color: rgb(41, 134, 211);
 }
