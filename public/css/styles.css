@@ -164,7 +164,7 @@ button:disabled {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.705);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -268,7 +268,7 @@ button:disabled {
   flex-direction: column;
   max-height: 100vh;
   margin: 10px 15px 10px 10px;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(235, 116, 116, 0.486);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -294,7 +294,7 @@ button:disabled {
 
 .message {
   margin-bottom: 16px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(24, 241, 86, 0.644);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   backdrop-filter: blur(3px);
@@ -337,14 +337,18 @@ button:disabled {
   padding: 12px;
   margin: 0 16px 0 0;
   flex-grow: 1;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(24, 241, 86, 0.644);
   backdrop-filter: blur(3px);
   border-radius: 10px;
 }
 
+#send-location {
+  background-color: #e6e931d7;
+}
+
 .compose button {
   color: rgb(70, 57, 57);
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(22, 220, 255, 0.664);
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(9px);
@@ -355,12 +359,17 @@ button:disabled {
 /* Chat Sidebar Styles */
 
 .room-title {
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 15px;
   text-align: center;
-  color: rgb(216, 76, 76);
+  color: rgb(226, 236, 84);
+  background-color: #335adad7;
 }
 
 .list-container {
+  position: relative;
+  height: 100%;
+  background-color: #5dbbe7de;
   margin-bottom: 4px;
   padding: 24px 24px 0 24px;
   text-align: center;
@@ -378,5 +387,5 @@ button:disabled {
   font-weight: 500;
   padding: 12px 24px 0 24px;
   font-size: medium;
-  color: rgb(41, 134, 211);
+  color: rgb(255, 255, 255);
 }
