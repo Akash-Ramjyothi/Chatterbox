@@ -8,7 +8,7 @@ The "Chatterbox" is a real-time group chat application. With this you can join a
 To be deployed on Heroku.
 
 ## 📽 Sample Demo:
-https://user-images.githubusercontent.com/54114888/117592706-3a1a3800-b157-11eb-9556-111302bca970.mp4
+https://user-images.githubusercontent.com/54114888/130512064-8286ea57-ebff-494a-95be-db0cdeca155b.mp4
 
 ## 🏗 Built with:
 - Node.JS.
