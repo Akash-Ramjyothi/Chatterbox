@@ -1,5 +1,5 @@
 ![chat-bubbles-with-ellipsis](https://user-images.githubusercontent.com/54114888/117592353-d5121280-b155-11eb-9abb-6de20f7e9a0c.png)
-# Chatterbox
+# ChatterBox
 
 ## 📑 Description:
 The "Chatterbox" is a real-time group chat application. With this you can join a specified room to chat, send the geographical location to other users in the room if permission is granted, automatically scroll down upon receiving a new message and it is also a responsive web design.
