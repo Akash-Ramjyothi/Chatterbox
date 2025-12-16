@@ -2,7 +2,7 @@
 # ChatterBox
 
 ## 📑 Description:
-The "Chatterbox" is a real-time group chat application. With this you can join a specified room to chat, send the geographical location to other users in the room if permission is granted, automatically scroll down upon receiving a new message and it is also a responsive web design.
+Chatterbox is a real-time group chat application that allows users to join specific rooms to chat, share their geographical location with permission, automatically scroll on new messages, and supports a fully responsive web design.
 
 ## 🌎 Deployed Website:
 To be deployed on Heroku.
